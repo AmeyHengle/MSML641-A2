@@ -1,0 +1,82 @@
+setting,query_row,query_genre,method,same_genre@10,same_emotion@10,mean_score@10
+entire corpus,12004,newsheadline,one-hot,0.3,0.4,0.39171999999999996
+entire corpus,12004,newsheadline,tf-idf,0.3,0.5,0.37056
+entire corpus,12004,newsheadline,word2vec,0.1,0.1,0.8972199999999999
+entire corpus,11846,newsheadline,one-hot,1.0,0.1,0.22998
+entire corpus,11846,newsheadline,tf-idf,1.0,0.1,0.23281999999999997
+entire corpus,11846,newsheadline,word2vec,1.0,0.1,0.9902099999999999
+entire corpus,12485,newsheadline,one-hot,0.3,0.4,0.28324
+entire corpus,12485,newsheadline,tf-idf,0.3,0.4,0.26769000000000004
+entire corpus,12485,newsheadline,word2vec,0.1,0.3,0.9500599999999999
+entire corpus,3477,moviereview,one-hot,0.5,0.1,0.36358999999999997
+entire corpus,3477,moviereview,tf-idf,0.4,0.3,0.30423
+entire corpus,3477,moviereview,word2vec,0.7,0.3,0.9582900000000001
+entire corpus,1799,moviereview,one-hot,1.0,0.7,0.27840000000000004
+entire corpus,1799,moviereview,tf-idf,0.8,0.5,0.25633999999999996
+entire corpus,1799,moviereview,word2vec,0.9,0.6,0.9177799999999999
+entire corpus,8684,moviereview,one-hot,0.4,0.1,0.43132000000000004
+entire corpus,8684,moviereview,tf-idf,0.2,0.0,0.36619999999999997
+entire corpus,8684,moviereview,word2vec,0.8,0.5,0.93424
+entire corpus,13020,blog,one-hot,1.0,0.1,0.2673
+entire corpus,13020,blog,tf-idf,0.8,0.1,0.20918
+entire corpus,13020,blog,word2vec,0.9,0.0,0.9395899999999999
+entire corpus,15267,blog,one-hot,0.4,0.4,0.34711000000000003
+entire corpus,15267,blog,tf-idf,0.2,0.4,0.26293999999999995
+entire corpus,15267,blog,word2vec,0.6,0.6,0.88956
+entire corpus,14740,blog,one-hot,0.7,0.7,0.25722999999999996
+entire corpus,14740,blog,tf-idf,0.8,0.3,0.23232
+entire corpus,14740,blog,word2vec,0.7,0.3,0.9408299999999998
+100-newsheadline,12609,newsheadline,one-hot,1.0,0.6,0.10913999999999999
+100-newsheadline,12609,newsheadline,tf-idf,1.0,0.6,0.08607000000000001
+100-newsheadline,12609,newsheadline,word2vec,1.0,0.8,0.9347300000000001
+100-newsheadline,12691,newsheadline,one-hot,1.0,0.6,0.04082
+100-newsheadline,12691,newsheadline,tf-idf,1.0,0.6,0.0368
+100-newsheadline,12691,newsheadline,word2vec,1.0,0.8,0.92458
+100-newsheadline,12570,newsheadline,one-hot,1.0,0.5,0.0
+100-newsheadline,12570,newsheadline,tf-idf,1.0,0.5,0.0
+100-newsheadline,12570,newsheadline,word2vec,1.0,0.5,0.8471500000000001
+100-moviereview,6660,moviereview,one-hot,1.0,0.6,0.016220000000000002
+100-moviereview,6660,moviereview,tf-idf,1.0,0.6,0.01371
+100-moviereview,6660,moviereview,word2vec,1.0,0.4,0.9980499999999999
+100-moviereview,3283,moviereview,one-hot,1.0,0.1,0.03276
+100-moviereview,3283,moviereview,tf-idf,1.0,0.1,0.03125
+100-moviereview,3283,moviereview,word2vec,1.0,0.1,0.9979799999999999
+100-moviereview,284,moviereview,one-hot,1.0,0.6,0.08957
+100-moviereview,284,moviereview,tf-idf,1.0,0.6,0.061880000000000004
+100-moviereview,284,moviereview,word2vec,1.0,0.6,0.9983699999999999
+100-blog,14927,blog,one-hot,1.0,0.2,0.0126
+100-blog,14927,blog,tf-idf,1.0,0.2,0.00903
+100-blog,14927,blog,word2vec,1.0,0.4,0.98794
+100-blog,13783,blog,one-hot,1.0,0.1,0.033800000000000004
+100-blog,13783,blog,tf-idf,1.0,0.1,0.03002
+100-blog,13783,blog,word2vec,1.0,0.0,0.9906900000000001
+100-blog,12992,blog,one-hot,1.0,0.1,0.04244
+100-blog,12992,blog,tf-idf,1.0,0.1,0.038239999999999996
+100-blog,12992,blog,word2vec,1.0,0.1,0.99253
+pooled 300,12609,newsheadline,one-hot,0.5,0.6,0.20419
+pooled 300,12609,newsheadline,tf-idf,0.5,0.6,0.16275
+pooled 300,12609,newsheadline,word2vec,0.5,0.5,0.9978899999999999
+pooled 300,12691,newsheadline,one-hot,0.1,0.3,0.07826
+pooled 300,12691,newsheadline,tf-idf,0.1,0.3,0.07865
+pooled 300,12691,newsheadline,word2vec,0.3,0.4,0.9946699999999999
+pooled 300,12570,newsheadline,one-hot,0.0,0.3,0.013250000000000001
+pooled 300,12570,newsheadline,tf-idf,0.0,0.3,0.01148
+pooled 300,12570,newsheadline,word2vec,0.0,0.5,0.9963599999999999
+pooled 300,6660,moviereview,one-hot,0.2,0.3,0.11705000000000002
+pooled 300,6660,moviereview,tf-idf,0.2,0.3,0.09828
+pooled 300,6660,moviereview,word2vec,0.4,0.5,0.99809
+pooled 300,3283,moviereview,one-hot,0.2,0.2,0.03276
+pooled 300,3283,moviereview,tf-idf,0.2,0.2,0.03181
+pooled 300,3283,moviereview,word2vec,0.8,0.2,0.9978100000000001
+pooled 300,284,moviereview,one-hot,0.6,0.5,0.11717
+pooled 300,284,moviereview,tf-idf,0.6,0.5,0.08785
+pooled 300,284,moviereview,word2vec,0.9,0.6,0.9981199999999999
+pooled 300,14927,blog,one-hot,0.7,0.2,0.047670000000000004
+pooled 300,14927,blog,tf-idf,0.7,0.2,0.02844
+pooled 300,14927,blog,word2vec,0.3,0.1,0.99663
+pooled 300,13783,blog,one-hot,0.7,0.1,0.06256999999999999
+pooled 300,13783,blog,tf-idf,0.7,0.1,0.048769999999999994
+pooled 300,13783,blog,word2vec,0.2,0.0,0.9978200000000002
+pooled 300,12992,blog,one-hot,0.7,0.0,0.08345
+pooled 300,12992,blog,tf-idf,0.7,0.0,0.07315
+pooled 300,12992,blog,word2vec,0.3,0.2,0.99792
